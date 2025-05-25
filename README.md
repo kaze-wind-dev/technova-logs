@@ -179,3 +179,20 @@ ChatGPTはブレストや草案生成の支援ツールとして使用し、最�
 
 ## この制作をとおして学んだこと
 ※最後に記載予定です
+
+## ディレクトリ設計　20250525
+
+・/components　コンポーネント
+・/libs　外部ソースなどのライブラリになるもの
+・/constants　定数など
+
+・/app　pageルータのディレクトリ
+　・/app/service
+　・/app/works
+    ・/app/works/[id]
+　・/app/company
+　・/app/recruit
+　・/app/news
+    ・/app/news/[id]
+　・/app/contact
+　
